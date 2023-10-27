@@ -75,3 +75,35 @@
   clip-path: polygon(50% 85%, 0% 100%, 100% 100%);
   box-sizing: border-box;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .site-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-title {
+    font-size: 3rem;
+  }
+
+  .searchbar {
+    width: 70%;
+    margin-left: 20%;
+  }
+
+  .searchbar-input {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .searchbar-btn {
+    border-radius: 0 2rem 2rem 0;
+    border: 1px solid white;
+    padding: 0 8px;
+    background-color: white;
+    background-image: url(./../assets/img/loupe.png);
+  }
+}
+
