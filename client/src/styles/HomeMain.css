@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url(./../assets/font/MontserratAlternates-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: url(./../assets/font/MontserratAlternates-Medium.ttf);
+}
+
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: url(./../assets/font/MontserratAlternates-ExtraBold.ttf);
+}
+
+
+.slogan {
+  font-family: "MontserratSemiBold";
+  color: #004225;
+  font-size: 2.8rem;
+  text-align: center;
+  margin: 5vh ;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* row-gap: 10ch; */
+  margin: 12vh 0vw;
+}
+
+.flex-wrapper-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-icons {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 2rem;
+}
+
+.wrapper-icon-text {
+  font-family: "MontserratMedium";
+  color: #004225;
+}
+
+.commercial-text {
+  font-family: "MontserratMedium";
+  margin: 5vw;
+  font-size: 1.3rem;
+}
+
+#home-section2 {
+  height: 60vh;
+  width: 100%;
+  background-image: url(./../assets/img/pexels-kelly-7446503.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section2-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-slogan {
+  color: white;
+  font-size: 2.8rem;
+  font-family: "MontserratExtraBold";
+}

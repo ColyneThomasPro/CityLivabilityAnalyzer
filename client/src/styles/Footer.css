@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "MontserratLight";
+  src: url(./../assets/font/MontserratAlternates-Light.ttf);
+}
+
+#footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #004225;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-list {
+  font-family: "MontserratLight";
+  display: flex;
+  list-style: none;
+}
+
+.footer-list li {
+  border-left: 1px solid;
+  padding: 0 15px;
+}
+
+
+
+

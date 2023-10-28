@@ -5,7 +5,7 @@
 
 #banner-container {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(./../assets/img/pexels-mikhail-nilov-8430276.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   clip-path: polygon(50% 85%, 0% 100%, 100% 100%);
   box-sizing: border-box;
 }
